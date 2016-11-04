@@ -13,6 +13,8 @@ public class CalendarioBasico
     private int mes;
     
     private int anio;
+    
+    private String fecha;
 
     /**
      * Constructor for objects of class CalendarioBasico
@@ -20,9 +22,10 @@ public class CalendarioBasico
     public CalendarioBasico()
     {
         // initialise instance variables
-        dia = 01;
-        mes = 01;
-        anio = 01;
+        dia = 1;
+        mes = 1;
+        anio = 1;
+        fecha = ""+dia+"-"+mes+"-"+anio+"";
     }
 
     public void avanzarFecha()
@@ -30,25 +33,27 @@ public class CalendarioBasico
         // put your code here
         dia++;
         if (dia >= 30) {    
-        
+            dia = 1;
+            mes = mes + 1;
         }
         if (mes >= 12) {    
-        
+            mes = 1;
+            anio = anio + 1;
         }
         if (anio < 2001 && anio > 2099 ) {    
-        
+            
         }
     }
     
-    public void fijarFecha(int dia, int mes, int anio)
+    public void fijarFecha(int nuevoDia, int nuevoMes, int nuevoAnio)
     {
-        // put your code here
-        ;
+        dia = nuevoDia;
+        mes = nuevoMes;
+        anio = nuevoAnio;
     }
     
    public String obtenerFecha()
    {
-        // put your code here
-        System.out.println(""+dia+"-"+mes+"-"+anio+"");
+        return fecha;
    }
 }
