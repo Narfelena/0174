@@ -8,26 +8,38 @@
 public class DisplayHoraYFecha
 {
     // instance variables - replace the example below with your own
-    private int x;
-
+    private int minuto;
+    private int hora;
+    private int dia;
+    private int mes;
+    private int anio;
+    private NumberDisplay nhora;
+    private NumberDisplay nminuto;
+    private String displayString;
     /**
      * Constructor for objects of class DisplayHoraYFecha
      */
     public DisplayHoraYFecha()
     {
-        // initialise instance variables
-        x = 0;
+       // initialise instance variables
+       nhora = new NumberDisplay(24);
+       nminuto = new NumberDisplay(60);
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
+    public void avanzarMomento()
+    {
+       // put your code here
+    }
+    
+    public void setMomento(int hora, int minuto, int dia, int mes, int anio)
     {
         // put your code here
-        return x + y;
+        ;
+    }
+    
+    public void getMomento()
+    {
+        // put your code here
+        ;
     }
 }
