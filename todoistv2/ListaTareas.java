@@ -1,4 +1,4 @@
-
+import java.util.ArrayList;
 /**
  * Write a description of class ListaTareas here.
  * 
@@ -7,26 +7,28 @@
  */
 public class ListaTareas
 {
-    // instance variables - replace the example below with your own
-    private ArrayList<String> listaTareas;
-
+    private ArrayList<Tarea> listaTareas;
+    
     /**
      * Constructor for objects of class ListaTareas
      */
     public ListaTareas()
     {
-        listaTareas = new ArrayList<String>();
+      listaTareas = new ArrayList<Tarea>();  
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
+    
+    public void añadirTarea()
     {
-        // put your code here
-        return x + y;
+      listaTareas.add(Tarea.getNombrar);
+    }
+    
+    public void verTareas()
+    {
+        int num = 1;
+        for(String nombreTarea : listaTareas){
+            System.out.println(num +"-"+ tarea);
+            num = num + 1;
+        }
+        
     }
 }

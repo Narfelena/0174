@@ -17,8 +17,16 @@ public class Tarea
     public Tarea()
     {
         this.nombreTarea = nombreTarea;
-        estado = false;
+    }    
+    
+    public String getNombrar()
+    {
+        return nombreTarea;
     }
     
+    public boolean getEstado()
+    {
+        return estado;
+    }
     
 }

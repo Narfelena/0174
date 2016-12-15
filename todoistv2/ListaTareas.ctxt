@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ListaTareas()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ ListaTareas\r\n
+comment1.params=tarea
+comment1.target=void\ a\u00F1adirTarea(java.lang.String)
+comment2.params=
+comment2.target=void\ verTareas()
+numComments=3
