@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Mazo()
+comment0.text=\ \r\n\ Crear\ una\ clase\ llamaza\ Mazo.\ El\ constructor\ de\ la\ clase\ Mazo\ debe\ encargarse\r\n\ de\ crear\ las\ 40\ cartas\ de\ la\ baraja\ espa\u00F1ola\ y\ de\ dejarlas\ guardadas\ de\ alguna\ forma.\r\n\ Crear\ un\ m\u00E9todo\ verCartasDelMazo\ que\ muestra\ linea\ a\ linea\ todas\ los\ nombres\ de\ las\r\n\ cartas\ existentes\ en\ el\ mazo.\r\n
+comment1.params=
+comment1.target=void\ verCartasDelMazo()
+comment2.params=
+comment2.target=void\ barajarCartas()
+comment2.text=\r\n\ Implementa\ un\ metodo\ llamado\ barajar\ en\ la\ clase\ Mazo\ que\ no\ devuelva\ nada\r\n\ y\ consiga\ mezclar\ las\ cartas\ existentes\ en\ ese\ momento\ en\ el\ mazo.\r\n
+comment3.params=
+comment3.target=Carta\ sacarCarta()
+comment3.text=\r\n\ Implementar\ un\ metodo\ llamado\ sacarCarta\ en\ la\ clase\ Mazo\ que\ devuelva\ un\ objeto\ Carta.\r\n\ Concretamente\ debe\ devolver\ la\ primera\ carta\ del\ mazo,\ eliminando\ esta\ del\ mazo.\r\n
+numComments=4

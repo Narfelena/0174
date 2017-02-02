@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Jugador()
+comment0.text=\r\n\ A\u00F1adir\ la\ clase\ Jugador\ que\ permita\ a\ un\ jugador\ identificado\ por\ un\ nombre\ (en\ formato\ String)\ ser\ \r\n\ capaz\ de\ tener\ hasta\ 5\ cartas.\ El\ constructor\ debe\ admitir\ el\ nombre\ del\ jugador\ como\ par\u00E1metro.\ Adem\u00E1s\ \r\n\ debe\ haber\ un\ m\u00E9todo\ llamado\ recibirCarta\ que\ permita\ un\ parametro\ de\ tipo\ Carta\ y\ un\ m\u00E9todo\ llamado\ verCartasJugador\ \r\n\ que\ imprima\ por\ pantalla\ las\ cartas\ del\ jugador,\ una\ por\ linea,\ y\ que\ funcione\ tenga\ las\ cartas\ que\ tenga.\r\n\r\n\ Es\ obligatorio\ usar\ un\ array\ para\ guardar\ las\ cartas\ del\ jugador.\r\n
+comment1.params=y
+comment1.target=int\ sampleMethod(int)
+comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+numComments=2
