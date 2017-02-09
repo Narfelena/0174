@@ -41,11 +41,16 @@ public class Persona
     {
         int ingerirCalorias = -1;
         ingerirCalorias = calorias.getComida();
-        if(ingerirCalorias != -1){
-            caloriasConsumidas = caloriasConsumidas + ingerirCalorias;
+        if(metabolismoBasal < caloriasConsumidas){
+            System.out.println("Has sobrepasado el limite de calorias");
         }
         else{
-            System.out.println("No se ha comido");
+            if(ingerirCalorias != -1){
+                caloriasConsumidas = caloriasConsumidas + ingerirCalorias;
+            }
+            else{
+                System.out.println("No se ha comido");
+            }
         }
         return ingerirCalorias;
     }
